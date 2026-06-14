@@ -1,0 +1,6 @@
+{
+  "name": "JobFinder",
+  "description": "An AI-powered job search and career platform providing personalized insights, resume building, and application tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

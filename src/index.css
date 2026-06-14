@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --shadow-neo: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Vibrant gradients from the design theme spec */
+.vibrant-gradient-1 {
+  background: linear-gradient(135deg, #6366F1 0%, #A855F7 100%);
+}
+
+.vibrant-gradient-2 {
+  background: linear-gradient(135deg, #F43F5E 0%, #FB923C 100%);
+}
+
+.vibrant-gradient-3 {
+  background: linear-gradient(135deg, #10B981 0%, #3B82F6 100%);
+}
+
+/* Glass effect for soft elegant overlay controls */
+.glass {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.neo-shadow {
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
